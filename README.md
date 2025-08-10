@@ -1,7 +1,22 @@
 # AWS-Textract-Based-Receipt-Processing-System
 
 ---
+
+## 📌 Table of Contents
+
+1. [Overview](#overview)  
+2. [Architecture](#architecture)  
+3. [Features](#features)  
+4. [Tech Stack](#tech-stack)   
+5. [Project Flow](#project-flow)  
+6. [Getting Started](#getting-started)  
+7. [Key Takeaways](#key-takeaways)  
+8. [Future Enhancements](#future-enhancements)  
+
+---
 ## Overview
+
+
 
  This project automates the extraction of structured data from unstructured receipts using AWS Textract. Users can upload receipts (e.g., .png, .jpg, .pdf) to an S3 bucket. A Lambda function is triggered, Textract processes the receipt, and a well-formatted summary email is sent to the user with extracted details like store address, date, time, item list, quantity, and prices.
 
